@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Software Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f0f4f8;
+      font-size: 20px;
+    }
+    header {
+      background: linear-gradient(to right, #1e3a8a, #2563eb);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #1e40af;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 25px;
+      text-decoration: none;
+      font-size: 22px;
+    }
+    .content {
+      padding: 40px;
+    }
+    .software-card, .features, .testimonials, .newsletter, .pricing, .team, .faq {
+      background-color: white;
+      padding: 30px;
+      margin: 25px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .software-card h3 {
+      font-size: 30px;
+    }
+    .software-card a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      background-color: #3b82f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 20px;
+    }
+    .pricing-plan {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      margin: 1.5%;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+    }
+    .pricing-plan h3 {
+      font-size: 28px;
+    }
+    .team-member {
+      display: inline-block;
+      width: 30%;
+      text-align: center;
+      margin: 1.5%;
+    }
+    .team-member img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    .faq h4 {
+      margin-bottom: 5px;
+      font-size: 22px;
+    }
+    footer {
+      text-align: center;
+      background-color: #1e3a8a;
+      color: white;
+      padding: 25px;
+    }
+    .socials a {
+      margin: 0 10px;
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Software Hub</h1>
+    <p>Smart solutions for modern problems.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#softwares">Softwares</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#team">Team</a>
+    <a href="#faq">FAQs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="content" id="home">
+    <h2>Welcome!</h2>
+    <p>Explore a wide range of productivity, development, and security tools trusted by thousands around the world.</p>
+  </div>
+
+  <div class="content" id="softwares">
+    <h2>Our Software Collection</h2>
+
+    <div class="software-card">
+      <h3>CodeEditor Pro</h3>
+      <p>Lightning-fast code editing with real-time collaboration and Git integration.</p>
+      <a href="#">Download</a>
+    </div>
+
+    <div class="software-card">
+      <h3>SecureVault</h3>
+      <p>Military-grade encrypted file storage and password manager.</p>
+      <a href="#">Download</a>
+    </div>
+
+    <div class="software-card">
+      <h3>TaskMaster</h3>
+      <p>Plan, prioritize, and track all your goals in one place.</p>
+      <a href="#">Download</a>
+    </div>
+
+    <div class="software-card">
+      <h3>MediaBlitz</h3>
+      <p>A full-featured video and audio editor for creators and influencers.</p>
+      <a href="#">Download</a>
+    </div>
+
+    <div class="software-card">
+      <h3>NoteNinja</h3>
+      <p>Take smart notes with AI tagging, voice memos, and cloud sync.</p>
+      <a href="#">Download</a>
+    </div>
+
+    <div class="software-card">
+      <h3>DeskTime Tracker</h3>
+      <p>Track your work hours, breaks, and performance across devices.</p>
+      <a href="#">Download</a>
+    </div>
+  </div>
+
+  <div class="content pricing" id="pricing">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-plan">
+      <h3>Free</h3>
+      <p>Rs 0/month</p>
+      <p>✓ Limited features</p>
+      <p>✓ 1 user</p>
+      <p>✓ Basic support</p>
+    </div>
+    <div class="pricing-plan">
+      <h3>Pro</h3>
+      <p>Rs 9.99/month</p>
+      <p>✓ Full features</p>
+      <p>✓ 3 users</p>
+      <p>✓ Priority support</p>
+    </div>
+    <div class="pricing-plan">
+      <h3>Enterprise</h3>
+      <p>Rs 29.99/month</p>
+      <p>✓ Unlimited features</p>
+      <p>✓ Unlimited users</p>
+      <p>✓ 24/7 support</p>
+    </div>
+  </div>
+
+  <div class="content team" id="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-member">
+      <img src="https://via.placeholder.com/100" alt="Team Member" />
+      <h3>Aaryan</h3>
+      <p>CEO & Founder</p>
+    </div>
+    <div class="team-member">
+      <img src="https://via.placeholder.com/100" alt="Team Member" />
+      <h3>Aaryan</h3>
+      <p>Lead Developer</p>
+    </div>
+    <div class="team-member">
+      <img src="https://via.placeholder.com/100" alt="Team Member" />
+      <h3>Aaryan</h3>
+      <p>Product Designer</p>
+    </div>
+  </div>
+
+  <div class="content faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <h4>Is the software safe to use?</h4>
+    <p>Yes, all our software goes through rigorous security and QA checks.</p>
+
+    <h4>Do you offer refunds?</h4>
+    <p>We offer a 14-day money-back guarantee on all paid plans.</p>
+
+    <h4>Can I use the software on multiple devices?</h4>
+    <p>Yes, our software supports multi-device sync and usage.</p>
+  </div>
+
+  <div class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:support@mysoftwarehub.com">support@mysoftwarehub.com</a></p>
+    <p>Phone: +123 456 7890</p>
+    <div class="socials">
+      <a href="#">🌐</a>
+      <a href="#">🐦</a>
+      <a href="#">📘</a>
+      <a href="#">📸</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 My Software Hub. All rights reserved.
+  </footer>
+
+</body>
+</html>
